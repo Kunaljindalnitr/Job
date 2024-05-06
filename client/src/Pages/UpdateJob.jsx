@@ -24,7 +24,7 @@ const UpdateJob = () => {
     data.skills = selectedOption;
     // console.log(data)
      // update the book object
-     fetch(`http://localhost:5000/job/${id}`, {
+     fetch(`https://job-fr45.onrender.com/job/${id}`, {
       method: "PATCH",
 
       headers: {

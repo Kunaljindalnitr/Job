@@ -42,7 +42,7 @@ import Login from '../Pages/Login';
         {
           path: "edit-job/:id",
           element: <UpdateJob/>,
-          loader: ({params}) => fetch(`http://localhost:5000/all-jobs/${params.id}`)
+          loader: ({params}) => fetch(`https://job-fr45.onrender.com/all-jobs/${params.id}`)
         },
         {
           path:"/jobs/:id",
